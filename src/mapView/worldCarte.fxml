@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+
+<Group fx:id="group" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mapView.WorldCarteController">
+   <children>
+      <Pane fx:id="canvas" prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <Button layoutX="169.0" layoutY="150.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="263.0" text="Button" />
+         </children></Pane>
+   </children>
+</Group>

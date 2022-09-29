@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="390.0" prefWidth="674.0" style="-fx-border-color: #ffffff;" styleClass="anchor-pane" stylesheets="@../../Style/style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Interface.Main.AboutController">
+   <children>
+      <VBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="451.0" prefWidth="674.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <TextArea editable="false" maxHeight="1.7976931348623157E308" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="672.0" style="-fx-font-family: System; -fx-font-size: 18;" styleClass="text-area" text="Navortho version 2021, est une application qui facilite les calculs liés à la  navigation maritime orthodromique, avec une interface graphique simple qui permet à l'utilisateur d'effectuer des calculs liés à la navigation maritime orthodromique entre deux points géographiques, de manière simple et rapide sans erreurs, par opposition à la méthode manuelle qui peut prendre beaucoup de temps et parfois des erreurs peuvent être commises, entraînant des risques pour la navigation maritime. Cette application vise à réduire les erreurs et à améliorer la sécurité maritime.&#10;élaboré par Mr Soufiane Belouafi lauréat de l'Institut Supérieur des Pêches Maritimes 2020/2021.&#10;" wrapText="true" VBox.vgrow="ALWAYS">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </TextArea>
+            <HBox alignment="CENTER" prefHeight="67.0" prefWidth="672.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#closeAboutWindow" prefHeight="39.0" prefWidth="111.0" stylesheets="@../../Style/style.css" text="fermer">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Button>
+               </children>
+               <padding>
+                  <Insets bottom="20.0" top="20.0" />
+               </padding>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="155.0" prefWidth="674.0" style="-fx-border-color: #ffffff;" styleClass="anchor-pane" stylesheets="@../../Style/style.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Interface.Main.OrthoWarningController">
+   <children>
+      <VBox AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <TextArea editable="false" prefHeight="370.0" prefWidth="628.0" style="-fx-font-family: System; -fx-font-size: 18;" styleClass="text-area" stylesheets="@../../Style/style.css" text="la distance à parcourir est inférieur de 300 milles, il est recommandé d'utitliser la navigation loxodromique dans le calcul." wrapText="true" VBox.vgrow="ALWAYS">
+
+            </TextArea>
+            <HBox alignment="CENTER" fillHeight="false" spacing="100.0" stylesheets="@../../Style/style.css" VBox.vgrow="NEVER">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#closeWindow" prefHeight="39.0" prefWidth="111.0" stylesheets="@../../Style/style.css" text="fermer">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="292.0" layoutY="11.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="111.0" stylesheets="@../../Style/style.css" text="continuer" HBox.hgrow="NEVER">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Button>
+               </children>
+               <padding>
+                  <Insets bottom="20.0" top="20.0" />
+               </padding>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
